@@ -42,11 +42,11 @@ function App() {
 		return (
 			<div className='outercard shadow-lg rounded container'>
 				<div className='card-body'>
-					<div className='row'>
+					<div className='row d-flex align-items-center'>
 						<div className='col-lg-6'>
 						<p>
 							<h2><b>{data.name}, {data.sys.country}</b></h2>
-							<h1 className='display-1'><b>{data.main.temp} &#8451;</b></h1>
+							<h1 className='display-1 fw-bold'>{data.main.temp} &#8451;</h1>
 							{/* &#8457;  for fahrenheit */}
 							<h4>
 								Realfeel&reg; {data.main.feels_like} &#8451;
@@ -55,12 +55,12 @@ function App() {
 						</p>
 						</div>
 						<div className='col-lg-6'>
-							<div className='m-1 innercard p-2'>
+							<div className='m-1 innercard p-3 fw-bold'>
 								Latitude: {data.coord.lat}
 								<br />
 								Longitude: {data.coord.lon}
 								<br />
-								weather: {data.weather[0].main},{data.weather[0].description}
+								Weather: {data.weather[0].main},{data.weather[0].description}
 								<br />
 								Min: {data.main.temp_min} &#8451;
 								<br />
@@ -70,9 +70,9 @@ function App() {
 								<br />
 								Humidity: {data.main.humidity} %
 								<br />
-								cloud: {data.clouds.all} %
+								Cloud: {data.clouds.all} %
 								<br />
-								wind_speed: {data.wind.speed} m/sec
+								Wind Speed: {data.wind.speed} m/sec
 							</div>
 						</div>
 					</div>
