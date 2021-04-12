@@ -44,3 +44,4 @@
 
 https://github.com/erikflowers/weather-icons/blob/master/svg/wi-rain.svg
 https://github.com/akashyap2013/Weather_App/tree/master/src
+https://www.figma.com/file/Cu7iX66FDkm6gheng6BUiU/weather?node-id=1%3A2
