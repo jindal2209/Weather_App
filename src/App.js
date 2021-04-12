@@ -137,7 +137,7 @@ function App() {
 						value={city} 
 						className="form-control"
 						onInput={(e) => setCity(e.target.value)} 
-						placeholder='Enter city or country name'
+						placeholder='Enter city name or country name'
 					/>
 					<div class="input-group-prepend">
 						<button className='btn btn-danger' onClick={handleSearchLocation}><i className='fa fa-map-marker'></i></button>
