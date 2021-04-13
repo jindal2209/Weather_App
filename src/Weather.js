@@ -21,7 +21,8 @@ function WeatherData({data}) {
 				break;
 		}
 		setIcon(name);
-	},[data.weather])
+		document.title = data.name ? `${data.name},${data.sys.country} @ ${data.main.temp}\u00B0C` : "Weather"
+	},[data.weather,data])
 	var style = {
 		"position": 'relative',
 	}
