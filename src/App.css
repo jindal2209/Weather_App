@@ -4,3 +4,15 @@
 	border-radius: 10px;
 	font-weight: bolder;
 }
+
+.icn{
+	background: transparent;
+}
+
+@media only screen and (max-width: 800px) {
+	.icn{
+		position: absolute;
+		top: 30px;
+		right: 0;
+	}
+}

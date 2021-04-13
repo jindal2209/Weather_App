@@ -21,14 +21,16 @@ function WeatherData({data}) {
 				break;
 		}
 		setIcon(name);
-		// console.log('hi');
 	},[data.weather])
+	var style = {
+		"position": 'relative',
+	}
 	return (
 		<div className='outercard shadow-lg rounded container'>
 			<div className='card-body'>
 				<div className='row d-flex align-items-center'>
 					<div className='col-lg-6'>
-						<div>
+						<div style={style}>
 							<h2 className='text-decoration-underline'><b>{data.name}, {data.sys.country}</b></h2>
 							<h1 className='display-1 fw-bold'>{data.main.temp} &#8451;</h1>
 							{/* &#8457;  for fahrenheit */}
@@ -38,7 +40,7 @@ function WeatherData({data}) {
 							<h4>
 								Realfeel&reg; {data.main.feels_like} &#8451;
 							</h4>
-							<h1 className='display-1'><i className={icon}></i></h1>
+							<h1 className='icn display-1'><i className={`${icon}`}></i></h1>
 						</div>
 					</div>
 					<div className='col-lg-6'>
