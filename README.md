@@ -1,4 +1,4 @@
-### Project Hosted here <a href="https://jindal2209.github.io/Weather_App"> 👆</a>
+### Project Hosted here <a href="https://jindal2209.github.io/Weather_App" target="_blank" > 👆</a>
 
 
 # Getting Started with Create React App
