@@ -45,3 +45,47 @@
 https://github.com/erikflowers/weather-icons/blob/master/svg/wi-rain.svg
 https://github.com/akashyap2013/Weather_App/tree/master/src
 https://www.figma.com/file/Cu7iX66FDkm6gheng6BUiU/weather?node-id=1%3A2
+
+{
+			"coord": {
+			  "lon": undefined,
+			  "lat": undefined
+			},
+			"weather": [
+			  {
+				"id": 721,
+				"main": undefined,
+				"description": undefined,
+				// "icon": "50n"
+			  }
+			],
+			// "base": "stations",
+			"main": {
+			  "temp": undefined,
+			  "feels_like": undefined,
+			  "temp_min": undefined,
+			  "temp_max": undefined,
+			  "pressure": undefined,
+			  "humidity": undefined
+			},
+			// "visibility": 3500,
+			"wind": {
+			  "speed": undefined,
+			//   "deg": 270
+			},
+			"clouds": {
+			  "all": undefined
+			},
+			// "dt": 1618155344,
+			"sys": {
+				"country": undefined,
+			//   "type": 1,
+			//   "id": 9165,
+			//   "sunrise": 1618101007,
+			//   "sunset": 1618146869
+			},
+			// "timezone": 19800,
+			"id": undefined,
+			"name": undefined,
+			// "cod": 200
+		  }
